@@ -19,4 +19,4 @@ WORKDIR /testing-
 COPY . /testing-
 
 # Set the entry point for the container
-CMD ["/bin/bash", "/start.sh"]
+CMD ["/bin/bash", "start.sh"]
